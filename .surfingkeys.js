@@ -40,6 +40,7 @@ settings.theme = `
 addSearchAliasX('w', 'bing', 'https://cn.bing.com/search?q=', 's', 'http://api.bing.com/osjson.aspx?query=', function(response) {
     var res = JSON.parse(response.text);
     return res[1];
+    
 });
 
 // click `Save` button to make above settings to take effect.
